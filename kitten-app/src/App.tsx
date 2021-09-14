@@ -1,9 +1,10 @@
 import React from 'react';
 
 import './App.css';
+import CreateCat from './scenes/createCat';
 
 function App() {
-  return <div>Cat Dashboard</div>;
+  return <CreateCat></CreateCat>;
 }
 
 export default App;
